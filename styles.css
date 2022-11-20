@@ -63,9 +63,45 @@ input[type=text], input[type=password] {
     margin-right: 10px;
     margin-left: 10px;
   }
+  .center2{
+    margin-top: 2%;
+    margin-bottom: 3%;
+    margin-left: 43%;
+  }
 
-  .white_b2{
+  .blue_b2{
     margin: auto;
     border: 5px solid #52aafc;
     border-width: 20%;
+  }
+
+  .inp {
+    opacity: 0;
+    z-index: -1;
+    position: absolute;
+  }
+
+  .profilelook{
+    border-radius: 50%;
+  }
+
+  .bk_lightblue{
+    background-color: rgb(127, 147, 238);
+  }
+
+  .thick{
+    font-weight: bolder;
+  }
+
+  .div1{
+    width: 40%; 
+    float:left; 
+    height:60%; 
+    padding-left: 3%;
+  }
+  .div2{
+    width: 50%; 
+    float:left; 
+    height:50%; 
+    padding-right: 3%;
   }
